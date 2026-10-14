@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atelier Brown | Interior Design Studio</title>
+  <meta name="description" content="Atelier Brown is an interior design studio creating warm, functional homes and workplaces. Book a consultation.">
+  <meta name="theme-color" content="#30231D">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- NAVBAR -->
+  <header class="site-header" id="site-header">
+    <span class="progress" id="progress" aria-hidden="true"></span>
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="Atelier Brown Interior Studio, home">
+        <span class="logo__mark" aria-hidden="true">AB</span>
+        <span class="logo__text">Atelier Brown<small>Interior Studio</small></span>
+      </a>
+      <nav class="nav__links" id="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="#home" data-nav>Home</a></li>
+          <li><a href="#about" data-nav>About</a></li>
+          <li><a href="#services" data-nav>Services</a></li>
+          <li><a href="#gallery" data-nav>Gallery</a></li>
+          <li><a href="#contact" data-nav>Contact</a></li>
+        </ul>
+        <a class="btn btn--light nav__cta" href="#contact">Book a Consultation</a>
+      </nav>
+      <button class="nav__toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__media" aria-hidden="false">
+        <img class="hero__img" src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2000&q=80" alt="Warm, minimal living room with a low sofa, timber accents and soft natural light" fetchpriority="high" decoding="async">
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow hero__eyebrow">Crafting spaces. Defining lifestyles.</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="line"><span class="w" style="--i:0">Designing</span> <span class="w" style="--i:1">Spaces</span></span>
+          <span class="line"><span class="w" style="--i:2">That</span> <span class="w" style="--i:3">Feel</span> <span class="w" style="--i:4">Like</span></span>
+          <span class="line"><span class="w" style="--i:5"><em>Home.</em></span></span>
+        </h1>
+        <p class="hero__lead">Atelier Brown plans and furnishes homes and workplaces around how you actually live: calm layouts, honest materials and details that last.</p>
+        <div class="hero__actions">
+          <a class="btn btn--bronze" href="#gallery">Explore Our Work</a>
+          <a class="btn btn--ghost" href="#contact">Book a Consultation</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About section"><span class="scroll-cue__line" aria-hidden="true"></span><span class="scroll-cue__text">Scroll</span></a>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee__track"><span>Residential Interiors</span><span>Living Rooms</span><span>Bedrooms</span><span>Modular Kitchens</span><span>Commercial Spaces</span><span>Space Planning</span><span>Residential Interiors</span><span>Living Rooms</span><span>Bedrooms</span><span>Modular Kitchens</span><span>Commercial Spaces</span><span>Space Planning</span></div></div>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <figure class="about__big img-box"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80" alt="Spacious interior with warm wood flooring and large windows" loading="lazy" decoding="async"></figure>
+          <figure class="about__small img-box"><img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=700&q=80" alt="Detail of a styled shelf and neutral textiles" loading="lazy" decoding="async"></figure>
+        </div>
+        <div class="about__copy">
+          <p class="eyebrow eyebrow--dark reveal">Our philosophy</p>
+          <h2 class="h2 reveal" id="about-title">Thoughtfully Designed. Beautifully Lived.</h2>
+          <p class="lead reveal">We begin with how you move through a room, where the light falls and what you want to keep. From there we choose materials, furniture and finishes that feel considered, hold up to daily life and age well.</p>
+          <ul class="values">
+            <li class="reveal"><h3>Thoughtful Planning</h3><p>Layouts drawn around routines before anything is bought.</p></li>
+            <li class="reveal"><h3>Timeless Aesthetics</h3><p>A warm, restrained palette that outlasts trends.</p></li>
+            <li class="reveal"><h3>Functional Living</h3><p>Storage, circulation and comfort resolved in the plan.</p></li>
+          </ul>
+          <a class="link-arrow reveal" href="#why">Discover Our Approach <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-head section-head--row reveal">
+          <div>
+            <p class="eyebrow">What we do</p>
+            <h2 class="h2" id="services-title">Services, from first sketch to final styling.</h2>
+          </div>
+          <span class="head-line" aria-hidden="true"></span>
+          <p class="head-note">Six ways we shape homes and workplaces.</p>
+        </header>
+        <div class="services__grid">
+          <article class="svc svc--a reveal">
+            <div class="img-box"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" alt="Modern home exterior and interior with warm lighting" loading="lazy" decoding="async"></div>
+            <div class="svc__body"><h3>Residential Interior Design</h3><p>Complete home interiors, from concept and layout to furniture, lighting and finishing.</p>
+            <a class="link-arrow" href="#contact" data-service="Residential Interior Design">Explore Service <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+          </article>
+          <article class="svc svc--b reveal">
+            <div class="img-box"><img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=900&q=80" alt="Living room with layered neutral seating and a timber coffee table" loading="lazy" decoding="async"></div>
+            <div class="svc__body"><h3>Living Room Design</h3><p>Seating, lighting and storage arranged for conversation and quiet evenings.</p>
+            <a class="link-arrow" href="#contact" data-service="Living Room Design">Explore Service <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+          </article>
+          <article class="svc svc--c reveal">
+            <div class="img-box"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80" alt="Calm bedroom with soft bedding and warm tones" loading="lazy" decoding="async"></div>
+            <div class="svc__body"><h3>Bedroom Design</h3><p>Restful rooms with tactile materials, layered light and built-in storage.</p>
+            <a class="link-arrow" href="#contact" data-service="Bedroom Design">Explore Service <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+          </article>
+          <article class="svc svc--d reveal">
+            <div class="img-box"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80" alt="Designer modular kitchen with wood cabinetry and a clean worktop" loading="lazy" decoding="async"></div>
+            <div class="svc__body"><h3>Modular Kitchen Design</h3><p>Efficient work triangles, durable surfaces and cabinetry made to fit your space.</p>
+            <a class="link-arrow" href="#contact" data-service="Modular Kitchen Design">Explore Service <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+          </article>
+          <article class="svc svc--e reveal">
+            <div class="img-box"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80" alt="Bright contemporary office interior with large windows" loading="lazy" decoding="async"></div>
+            <div class="svc__body"><h3>Commercial Interior Design</h3><p>Offices, studios and retail spaces that support the work and represent the brand.</p>
+            <a class="link-arrow" href="#contact" data-service="Commercial Interior Design">Explore Service <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+          </article>
+          <article class="svc svc--f reveal">
+            <div class="img-box"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80" alt="Open-plan interior showing considered space planning" loading="lazy" decoding="async"></div>
+            <div class="svc__body"><h3>Space Planning &amp; Consultation</h3><p>An expert review of your plan, with clear recommendations before you commit to a build.</p>
+            <a class="link-arrow" href="#contact" data-service="Space Planning & Consultation">Explore Service <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head section-head--row reveal">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 class="h2" id="gallery-title">Rooms made to be lived in.</h2>
+          </div>
+          <span class="head-line" aria-hidden="true"></span>
+          <div class="filters" role="group" aria-label="Filter projects by category">
+            <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="filter" data-filter="Residential" aria-pressed="false">Residential</button>
+            <button type="button" class="filter" data-filter="Kitchen" aria-pressed="false">Kitchen</button>
+            <button type="button" class="filter" data-filter="Bedroom" aria-pressed="false">Bedroom</button>
+            <button type="button" class="filter" data-filter="Commercial" aria-pressed="false">Commercial</button>
+          </div>
+        </header>
+        <p class="sr-only" id="filter-status" role="status" aria-live="polite"></p>
+        <div class="gallery__grid" id="gallery-grid">
+          <figure class="proj proj--1" data-category="Residential">
+            <button type="button" class="proj__btn reveal" data-full="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1800&q=85" aria-label="View project: Contemporary Living Room">
+              <span class="proj__tag">Residential</span>
+              <span class="img-box"><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1100&q=80" alt="Contemporary living room with a neutral sofa and wooden furniture" loading="lazy" decoding="async"></span>
+              <figcaption class="proj__cap"><span class="proj__meta">Project 01 · Residential</span><span class="proj__title">Contemporary Living Room</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></figcaption>
+            </button>
+          </figure>
+          <figure class="proj proj--2" data-category="Bedroom">
+            <button type="button" class="proj__btn reveal" data-full="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1800&q=85" aria-label="View project: Minimalist Bedroom">
+              <span class="proj__tag">Bedroom</span>
+              <span class="img-box"><img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=900&q=80" alt="Minimalist bedroom with soft linen and warm neutral tones" loading="lazy" decoding="async"></span>
+              <figcaption class="proj__cap"><span class="proj__meta">Project 02 · Bedroom</span><span class="proj__title">Minimalist Bedroom</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></figcaption>
+            </button>
+          </figure>
+          <figure class="proj proj--3" data-category="Kitchen">
+            <button type="button" class="proj__btn reveal" data-full="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1800&q=85" aria-label="View project: Luxury Modular Kitchen">
+              <span class="proj__tag">Kitchen</span>
+              <span class="img-box"><img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=80" alt="Luxury modular kitchen with dark cabinetry and warm lighting" loading="lazy" decoding="async"></span>
+              <figcaption class="proj__cap"><span class="proj__meta">Project 03 · Kitchen</span><span class="proj__title">Luxury Modular Kitchen</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></figcaption>
+            </button>
+          </figure>
+          <figure class="proj proj--4" data-category="Residential">
+            <button type="button" class="proj__btn reveal" data-full="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1800&q=85" aria-label="View project: Modern Apartment Interior">
+              <span class="proj__tag">Residential</span>
+              <span class="img-box"><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1100&q=80" alt="Modern apartment interior with open living and dining area" loading="lazy" decoding="async"></span>
+              <figcaption class="proj__cap"><span class="proj__meta">Project 04 · Residential</span><span class="proj__title">Modern Apartment Interior</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></figcaption>
+            </button>
+          </figure>
+          <figure class="proj proj--5" data-category="Commercial">
+            <button type="button" class="proj__btn reveal" data-full="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=85" aria-label="View project: Premium Office Interior">
+              <span class="proj__tag">Commercial</span>
+              <span class="img-box"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80" alt="Premium office interior with a long meeting table and warm lighting" loading="lazy" decoding="async"></span>
+              <figcaption class="proj__cap"><span class="proj__meta">Project 05 · Commercial</span><span class="proj__title">Premium Office Interior</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></figcaption>
+            </button>
+          </figure>
+          <figure class="proj proj--6" data-category="Residential">
+            <button type="button" class="proj__btn reveal" data-full="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85" aria-label="View project: Elegant Dining Space">
+              <span class="proj__tag">Residential</span>
+              <span class="img-box"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=80" alt="Elegant dining space with a timber table and pendant lighting" loading="lazy" decoding="async"></span>
+              <figcaption class="proj__cap"><span class="proj__meta">Project 06 · Residential</span><span class="proj__title">Elegant Dining Space</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></figcaption>
+            </button>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATEMENT -->
+    <section class="statement" aria-labelledby="statement-title">
+      <img class="statement__img" src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=2000&q=80" alt="Sunlit living room with layered textiles and a large window" loading="lazy" decoding="async">
+      <div class="statement__overlay" aria-hidden="true"></div>
+      <div class="container statement__inner">
+        <h2 class="statement__title reveal" id="statement-title">Every Space Has a Story. Let&rsquo;s Design Yours.</h2>
+        <div class="statement__side reveal">
+          <p class="statement__text">Tell us about your home or workplace and we will help you shape it into somewhere that feels right.</p>
+          <a class="btn btn--bronze" href="#contact">Start Your Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="section why" id="why" aria-labelledby="why-title">
+      <div class="container why__grid">
+        <div class="why__media reveal">
+          <figure class="img-box"><img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1100&q=80" alt="Elegant interior with considered furniture and material details" loading="lazy" decoding="async"></figure>
+        </div>
+        <div>
+          <header class="section-head reveal">
+            <p class="eyebrow eyebrow--dark">Why Atelier Brown</p>
+            <h2 class="h2" id="why-title">A studio that designs for the way you live.</h2>
+          </header>
+          <ul class="why__list">
+            <li class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8ZM4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg><div><h3>Personalised Design Approach</h3><p>Every brief is shaped around your habits, taste and budget.</p></div></li>
+            <li class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.9-4.9"/></svg><div><h3>Attention to Detail</h3><p>Joinery, junctions and finishes are drawn and reviewed carefully.</p></div></li>
+            <li class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM4 12h10M14 4v16"/></svg><div><h3>Smart Space Utilisation</h3><p>Plans that make every square metre earn its place.</p></div></li>
+            <li class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5ZM3 13l9 5 9-5"/></svg><div><h3>Quality Materials</h3><p>Honest, durable materials chosen to look better with use.</p></div></li>
+            <li class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM9 9h6M9 13h6M9 17h3"/></svg><div><h3>Transparent Consultation</h3><p>Clear scope, clear costs and clear next steps from the start.</p></div></li>
+            <li class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20V9l9-6 9 6v11M9 20v-6h6v6"/></svg><div><h3>Functionality Meets Aesthetics</h3><p>Rooms that look composed and work hard every day.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section-head section-head--row reveal">
+          <div>
+            <p class="eyebrow">How we work</p>
+            <h2 class="h2" id="process-title">From first call to final styling.</h2>
+          </div>
+          <span class="head-line" aria-hidden="true"></span>
+          <p class="head-note">Four clear steps, with you involved throughout.</p>
+        </header>
+        <ol class="process__list reveal">
+          <li class="step reveal"><span class="step__num" aria-hidden="true">1</span><h3>Consultation</h3><p>We listen to how you live and work, then agree the scope.</p></li>
+          <li class="step reveal"><span class="step__num" aria-hidden="true">2</span><h3>Concept &amp; plan</h3><p>Layouts, mood and material options for your approval.</p></li>
+          <li class="step reveal"><span class="step__num" aria-hidden="true">3</span><h3>Design development</h3><p>Joinery, lighting and furniture detailed and selected.</p></li>
+          <li class="step reveal"><span class="step__num" aria-hidden="true">4</span><h3>Styling &amp; handover</h3><p>Finishing touches and a final walkthrough together.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="eyebrow reveal">Consultation</p>
+          <h3 class="h3 reveal" id="contact-title">Let&rsquo;s Create Your Dream Space.</h3>
+          <dl class="contact__details reveal">
+            <div><dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>Studio</dt><dd>[Studio address, City]</dd></div>
+            <div><dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>Phone</dt><dd>[+00 00000 00000]</dd></div>
+            <div><dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 6 9-6"/></svg>Email</dt><dd>[hello@yourstudio.com]</dd></div>
+            <div><dt><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Hours</dt><dd>[Mon–Sat, 10:00–18:00]</dd></div>
+          </dl>
+          <!-- Map: change the text after "q=" (and "query=" in the link) to your studio address -->
+          <div class="map reveal">
+            <iframe title="Studio location on Google Maps" src="https://www.google.com/maps?q=Pimpri-Chinchwad%2C%20Maharashtra%2C%20India&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <span class="map__tint" aria-hidden="true"></span>
+            <a class="map__link" href="https://www.google.com/maps/search/?api=1&amp;query=Pimpri-Chinchwad%2C%20Maharashtra%2C%20India" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+          </div>
+        </div>
+        <form class="form reveal" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Full name <span aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-err">
+            <p class="field__err" id="name-err" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="email">Email <span aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-err">
+            <p class="field__err" id="email-err" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="phone">Phone <span aria-hidden="true">*</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" required aria-describedby="phone-err">
+            <p class="field__err" id="phone-err" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="service">Service <span aria-hidden="true">*</span></label>
+            <select id="service" name="service" required aria-describedby="service-err">
+              <option value="">Select a service</option>
+              <option>Residential Interior Design</option>
+              <option>Living Room Design</option>
+              <option>Bedroom Design</option>
+              <option>Modular Kitchen Design</option>
+              <option>Commercial Interior Design</option>
+              <option>Space Planning &amp; Consultation</option>
+            </select>
+            <p class="field__err" id="service-err" role="alert"></p>
+          </div>
+          <div class="field field--full">
+            <label for="message">Tell us about your project <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="5" required minlength="10" aria-describedby="message-err"></textarea>
+            <p class="field__err" id="message-err" role="alert"></p>
+          </div>
+          <div class="field--full form__foot">
+            <button class="btn btn--bronze" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-4.2A8 8 0 1 1 8.4 18.8L4 20Z"/><path d="M9.500 9.500c.3 2 2 3.700 4.500 4.500l1.200-1.200-1.800-.9-.9.700a4 4 0 0 1-1.800-1.800l.7-.9-.9-1.800Z"/></svg>Request a Consultation</button>
+            <p class="form__note">Submitting opens WhatsApp with your details filled in.</p>
+            <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="logo" href="#home" aria-label="Atelier Brown Interior Studio, back to top">
+          <span class="logo__mark" aria-hidden="true">AB</span>
+          <span class="logo__text">Atelier Brown<small>Interior Studio</small></span>
+        </a>
+        <p>An interior design studio creating warm, functional spaces for homes and workplaces.</p>
+      </div>
+      <nav aria-label="Footer quick links">
+        <h2 class="footer__h">Quick links</h2>
+        <ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#contact">Contact</a></li></ul>
+      </nav>
+      <nav aria-label="Footer services">
+        <h2 class="footer__h">Services</h2>
+        <ul>
+          <li><a href="#services">Residential Interiors</a></li><li><a href="#services">Living Rooms</a></li><li><a href="#services">Bedrooms</a></li>
+          <li><a href="#services">Modular Kitchens</a></li><li><a href="#services">Commercial Interiors</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer__h">Contact</h2>
+        <ul class="footer__contact"><li>[Studio address, City]</li><li>[+00 00000 00000]</li><li>[hello@yourstudio.com]</li></ul>
+        <ul class="socials" aria-label="Social media">
+          <li><a data-social="instagram" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></a></li>
+          <li><a data-social="facebook" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8a1 1 0 0 1 1-1Z"/></svg></a></li>
+          <li><a data-social="pinterest" aria-label="Pinterest"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c-1-3 .5-6 1.5-10M9 14c-2-2-1-7 3.5-7 3 0 4.500 2 4.500 4 0 3-2 5-4 5-1 0-1.800-.700-2-1.500"/></svg></a></li>
+          <li><a data-social="linkedin" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9v10M5 5v.01M10 19v-6a3 3 0 0 1 6 0v6M10 9v10"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bar"><p>&copy; <span id="year">2026</span> Atelier Brown Interior Studio. All rights reserved.</p><p>Brand name and details are placeholders.</p></div>
+  </footer>
+
+  <a class="wa-float" id="wa-float" href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-4.2A8 8 0 1 1 8.4 18.8L4 20Z"/><path d="M9.500 9.500c.3 2 2 3.700 4.500 4.500l1.200-1.200-1.800-.9-.9.700a4 4 0 0 1-1.800-1.800l.7-.9-.9-1.800Z"/></svg><span>WhatsApp</span></a>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></button>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Project image">
+    <button type="button" class="lightbox__close" id="lightbox-close" aria-label="Close image">&times;</button>
+    <img id="lightbox-img" src="" alt="">
+    <p id="lightbox-cap"></p>
+  </dialog>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
