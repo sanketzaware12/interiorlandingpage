@@ -284,7 +284,8 @@ svg{fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-l
   .why__list{grid-template-columns:1fr}
   .form{grid-template-columns:1fr}
   .values li{grid-template-columns:1fr;gap:.3rem}
-  .footer__grid{grid-template-columns:1fr}
+  .footer__grid{grid-template-columns:1fr 1fr;gap:1.2rem 1rem}
+  .footer__grid>.footer__brand,.footer__grid>div:last-child{grid-column:1/-1}
   .services__grid{grid-template-columns:1fr}
   .svc--a,.svc--b,.svc--c,.svc--d,.svc--e,.svc--f{grid-column:1/-1}
   .svc{flex-direction:row}.svc .img-box{flex:0 0 38%;min-height:0;aspect-ratio:auto}.svc__body{padding:.8rem 1rem}.svc p{display:none}
